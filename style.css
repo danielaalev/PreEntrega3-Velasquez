@@ -1,0 +1,120 @@
+* {
+    background-color: #EBE6E4;
+    font-family: 'Cormorant Garamond', serif;
+    color: #474747;
+}
+
+.indexheader{
+    display: flex;
+    align-items: center;
+}
+
+.imgindex {
+    width: 280px;
+    height: 280px;
+    background-color: #EBE6E4;
+}
+
+.indexsubtitle{
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.containerOne, 
+.containerTwo,
+.containerThree,
+.containerFour,
+.containerFive,
+.containerSix,
+.containerSeven,
+.containerEight,
+.containerNine,
+.containerTen{
+  background-color: #F2F2F2;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.containerOne h3,
+.containerTwo h3,
+.containerThree h3,
+.containerFour h3,
+.containerFive h3,
+.containerSix h3,
+.containerSeven h3,
+.containerEight h3,
+.containerNine h3,
+.containerTen h3{
+  color: #333333;
+  font-size: 22px;
+  margin-bottom: 10px;
+  background-color: #F2F2F2;
+}
+
+.containerOne p,
+.containerTwo p,
+.containerThree p,
+.containerFour p,
+.containerFive p,
+.containerSix p,
+.containerSeven p,
+.containerEight p,
+.containerNine p,
+.containerTen p{
+  color: #666666;
+  font-size: 18px;
+  background-color: #F2F2F2;
+}
+
+.containerOne button, 
+.containerTwo button,
+.containerThree button,
+.containerFour button,
+.containerFive button,
+.containerSix button,
+.containerSeven button,
+.containerEight button,
+.containerNine button,
+.containerTen button,
+.containerThirteen button{
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #474747; 
+    color: #FFFFFF; 
+    border: none; 
+    margin-right: 10px;
+}
+
+.containerOne button:hover, 
+.containerTwo button:hover
+.containerThree button:hover,
+.containerFour button:hover,
+.containerFive button:hover,
+.containerSix button:hover,
+.containerSeven button:hover,
+.containerEight button:hover,
+.containerNine button:hover,
+.containerTen button:hover,
+.containerThirteen button:hover{
+    background-color: #666666;
+    cursor: pointer; 
+}
+
+.containerTwo,
+.containerThree,
+.containerFour,
+.containerFive,
+.containerSix,
+.containerSeven,
+.containerEight,
+.containerNine,
+.containerTen{
+    margin-top: 20px;
+}
+
+.containerTen{
+    margin-bottom: 20px;
+}
+
+

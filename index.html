@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love & Love Events</title>
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <div class="indexheader">
+        <a href="index.html"><img class="imgindex" src="img/logo.png" alt="Logo"></a>
+        <h6 class="indexsubtitle">We plan the wedding of your dreams</h6>
+    </div>
+
+    <!-- SERVICES -->
+
+    <h2>Our Services</h2>
+    <div class="containerOne">
+        <h3>Venue Service</h3>
+        <p>Option 1: Secret luxury location outside the city: USD7,500</p>
+        <p>Option 2: 5-star hotel within the city: USD4,500</p>
+        <button class="buy" data-option-index="0">Add option 1</button>
+        <button class="buy" data-option-index="1">Add option 2</button>
+    </div>
+
+    <div class="containerTwo">
+        <h3>Catering Service</h3>
+        <p>Option 1: Premium selection: USD20,000</p>
+        <p>Option 2: Standard selection: USD15,000</p>
+        <button class="buy" data-option-index="0">Add option 1</button>
+        <button class="buy" data-option-index="1">Add option 2</button>
+    </div>
+
+    <div class="containerThree">
+        <h3>Decoration Service</h3>
+        <p>Option 1: Exclusive High-End Decor: USD10,000</p>
+        <p>Option 2: Traditional Decor: USD8,000</p>
+        <button class="buy" data-option-index="0">Add option 1</button>
+        <button class="buy" data-option-index="1">Add option 2</button>
+    </div>
+
+    <div class="containerFour">
+        <h3>Photography & Videography</h3>
+        <p>Option 1: Artistic Masterpieces: USD5,000</p>
+        <p>Option 2: Classic captures: USD4,000</p>
+        <button class="buy" data-option-index="0">Add option 1</button>
+        <button class="buy" data-option-index="1">Add option 2</button>
+    </div>
+
+    <div class="containerFive">
+        <h3>Wedding Attire</h3>
+        <p>Option 1: Couture Elegance: USD10,000</p>
+        <p>Option 2: Sophisticated Charm: USD7,000</p>
+        <button class="buy" data-option-index="0">Add option 1</button>
+        <button class="buy" data-option-index="1">Add option 2</button>
+    </div>
+
+    <div class="containerSix">
+        <h3>Entertainment Service</h3>
+        <p>Option 1: Luxury Entertainment Showcase: USD15,000</p>
+        <p>Option 2: Classic Performances: USD10,000</p>
+        <button class="buy" data-option-index="0">Add option 1</button>
+        <button class="buy" data-option-index="1">Add option 2</button>
+    </div>
+
+    <div class="containerSeven">
+        <h3>Invitations & Stationery Service</h3>
+        <p>Option 1: Opulent Designs: USD3,000</p>
+        <p>Option 2: Traditional Invitations and Stationery: USD2,000</p>
+        <button class="buy" data-option-index="0">Add option 1</button>
+        <button class="buy" data-option-index="1">Add option 2</button>
+    </div>
+
+    <div class="containerEight">
+        <h3>Accommodation Service</h3>
+        <p>Option 1: 5-star hotel: USD15,000</p>
+        <p>Option 2: 4-star hotel: USD11,000</p>
+        <button class="buy" data-option-index="0">Add option 1</button>
+        <button class="buy" data-option-index="1">Add option 2</button>
+    </div>
+
+    <div class="containerNine">
+        <h3>Wedding Cake Service</h3>
+        <p>Option 1: Sylvia Weinstock Cakes: USD5,000</p>
+        <p>Option 2: Local baker cake: USD2,000</p>
+        <button class="buy" data-option-index="0">Add option 1</button>
+        <button class="buy" data-option-index="1">Add option 2</button>
+    </div>
+
+    <div class="containerTen">
+        <h3>Hair and Makeup Service</h3>
+        <p>Option 1: Makeup by Patrick Ta and Hair by Guido Palau: USD7,500</p>
+        <p>Option 2: Makeup and Hair by local make-up artist and hairstylist: USD2,000</p>
+        <button class="buy" data-option-index="0">Add option 1</button>
+        <button class="buy" data-option-index="1">Add option 2</button>
+    </div>
+
+    <!-- TABLE WITH ADDED SERVICES -->
+
+    <section>
+        <h2>Your Wedding Shopping Cart</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Service Name</th>
+                    <th>Service Option</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody id="bodytable">
+                <!-- here shopping cart table -->
+            </tbody>
+            <tfoot>
+                <tr id="totalRow">
+                    <td colspan="2">Subtotal:</td>
+                    <td id="totalCost"></td>
+                </tr>
+            </tfoot>
+
+        </table>
+    </section>
+
+    <!-- WEDDING PLANNER COST-->
+
+    <div class="containerEleven">
+        <h3>Wedding Planner services account for 10% of the total aggregated services:</h3>
+        <p>Wedding Planer services:</p>
+    </div>
+
+    <!-- PURCHASE TOTAL -->
+
+    <div class="containerTwelve">
+        <h3>Your wedding will cost...</h3>
+        <p>Total: </p>
+    </div>
+
+    <!-- PURCHASE TOTAL -->
+
+    <div class="containerThirteen">
+        <button class="finish">Checkout</button>        
+    </div>
+
+
+    <script src="entrega3.js"></script>
+</body>
+
+</html>
